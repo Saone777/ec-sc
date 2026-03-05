@@ -7,7 +7,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: [
@@ -34,7 +34,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized shirt with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: [
@@ -60,7 +60,7 @@ const products = [
     slug: "maniac-mens-solid-collared-neck-full-sleeve-knitted-shoes",
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic shoes and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: ["images/shoes/shoes_p3-1.jpg", "images/shoes/shoes_p3-2.jpg"],
@@ -84,7 +84,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: [
@@ -111,7 +111,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: ["images/jeans/jeans_p1-1.jpg", "images/jeans/jeans_p1-2.jpg"],
@@ -135,7 +135,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized shirts with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: [
@@ -162,7 +162,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized shirts with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: [
@@ -190,7 +190,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: ["images/shoes/shoes_p1-1.jpg", "images/shoes/shoes_p1-2.jpg"],
@@ -213,7 +213,7 @@ const products = [
     slug: "fossil-nate-chronograph-analog-black-dial-grey-band-mens-stainless-steel-watch",
 
     description: "Fossil Nate JR1401 Chronograph Watch - For Men",
-    price: 149.99,
+    price: 12500,
     listPrice: 0,
     images: [
       "images/watches/watches_p1-1.jpg",
@@ -238,7 +238,7 @@ const products = [
     slug: "classic-moccasins-non-lace-up-formal-shoes-for-office-party-wedding-dress-shoes",
 
     description: "This is the description of product.",
-    price: 129.99,
+    price: 11000,
     listPrice: 0,
     images: ["images/shoes/shoes_p3-1.jpg", "images/shoes/shoes_p3-2.jpg"],
     category: "Jeans",
@@ -259,7 +259,7 @@ const products = [
     name: "Centrino Mens 7957 Classic Moccasins Non-Lace Up Formal Shoes for Office, Party",
     slug: "centrino-mens-7957-classic-moccasins-non-lace-up-formal-shoes-for-office-party",
     description: "This is the description of product 1.",
-    price: 149.99,
+    price: 12500,
     listPrice: 0,
     images: ["images/shoes/shoes_p2-1.jpg", "images/shoes/shoes_p2-2.jpg"],
     category: "Jeans",
@@ -282,7 +282,7 @@ const products = [
 
     description:
       "Symbol Premium's easy stretch jeans feature 'Air-Lite' hollow fiber, providing a unique blend of style, comfort. A desirable choice for denim lovers seeking both fashion and functionality in their wardrobe",
-    price: 149.99,
+    price: 12500,
     listPrice: 0,
     images: ["images/jeans/jeans_p1-1.jpg", "images/jeans/jeans_p1-2.jpg"],
     category: "Jeans",
@@ -305,7 +305,7 @@ const products = [
 
     description:
       "This Ben Martin casual denim jeans pant for men Durable and timeless look.AVAILABLE SIZE & COLOUR: This Ben Martin Mens Cotton Denim Jeans comes Range of sizes & Colors to suit different types. 40 Dark Blue, Light Blue, Brown, Green, Grey, Black & White. This Ben Martin Denim Jeans pant for Men is light weight breathable soft denim fabric. 1) Comfortable for all-day wear. 2) Casual and laid-back style. 3) 5 Basic Coin pockets for added functionality. 4) vailable in different washes and finishes.",
-    price: 149.99,
+    price: 12500,
     listPrice: 0,
     images: ["images/jeans/jeans_p2-1.jpg", "images/jeans/jeans_p2-2.jpg"],
     category: "Jeans",
@@ -329,7 +329,7 @@ const products = [
     slug: "ben-martin-mens-regular-fit-stylish-stretchable-32-size-brown-casual-denim-jeans-pant-for-men",
     description:
       "STRETCH COMFORT : These Ben Martin cotton denim casual jeans pant for men are constructed from a perfect blend of stretch-cotton fabric, which maximizes freedom of movement and ensures comfortable wear all day long.",
-    price: 59.99,
+    price: 5000,
     listPrice: 0,
 
     images: ["images/jeans/jeans_p3-1.jpg", "images/jeans/jeans_p3-2.jpg"],
@@ -352,7 +352,7 @@ const products = [
     slug: "lymio-polo-t-shirt-for-men-men-casual-t-shirt-polo-44-47",
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 29.99,
+    price: 2500,
     listPrice: 0,
 
     images: ["images/shoes/shoes_p2-1.jpg", "images/shoes/shoes_p2-2.jpg"],
@@ -399,7 +399,7 @@ const products = [
     slug: "Lymio Polo T Shirt for Men || Men Casual T-Shirt (Polo 44-47)",
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [
@@ -426,7 +426,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [
@@ -481,7 +481,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [
@@ -508,7 +508,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [
@@ -535,7 +535,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy ASIAN Men's Wonder-13 Sports Running Shoe. High-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: ["images/shoes/shoes_p4-1.jpg", "images/shoes/shoes_p4-2.jpg"],
@@ -559,7 +559,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy ASIAN Men's Wonder-13 Sports Running Shoe. High-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [
@@ -586,7 +586,7 @@ const products = [
 
     description:
       "Elevate your street cred by pairing these Baggy POLO Men's Wonder-13 Sports Running T-Shirts. High-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
-    price: 329.99,
+    price: 27500,
     listPrice: 0,
 
     images: [

@@ -57,7 +57,7 @@ function renderProducts(filterCategory = "all") {
     card.innerHTML = `
       <img  src="${product.images[0]}" alt="${product.title}">
       <h3>${product.name.slice(0, 30)}...</h3>
-      <p>$${product.price.toFixed(2)}</p>
+      <p>₹${product.price.toFixed(2)}</p>
       <button>
       <a href="product.html?slug=${product.slug}">View Details</a>
     </button>
@@ -91,7 +91,7 @@ function generateCategoryButtons(data) {
       }" data-category="${cat}">
          ${cat}
       </button>
-    `
+    `,
     )
     .join("");
   // above category btn's text make capitalize using javascript or css

@@ -32,7 +32,7 @@ function generateFilters(products) {
       <input type="radio" name="category" value="${cat}" />
       ${cat}
     </label>
-  `
+  `,
     )
     .join("");
 
@@ -43,7 +43,7 @@ function generateFilters(products) {
       <input type="radio" name="brand" value="${brand}" />
       ${brand}
     </label>
-  `
+  `,
     )
     .join("");
 
@@ -54,7 +54,7 @@ function generateFilters(products) {
       <input type="checkbox" name="color" value="${color}" />
       ${color}
     </label>
-  `
+  `,
     )
     .join("");
 
@@ -69,7 +69,7 @@ function generateFilters(products) {
 function getSelectedFilters() {
   // Category radio
   const categoryRadio = filterCategory.querySelector(
-    'input[name="category"]:checked'
+    'input[name="category"]:checked',
   );
   const selectedCategory = categoryRadio ? categoryRadio.value : null;
 
@@ -160,7 +160,7 @@ function filterAndRenderProducts() {
   const startIndex = (currentPage - 1) * productsPerPage;
   const paginatedProducts = filtered.slice(
     startIndex,
-    startIndex + productsPerPage
+    startIndex + productsPerPage,
   );
 
   renderProducts(paginatedProducts);
@@ -186,7 +186,7 @@ function renderProducts(productsToRender) {
       <p>Brand: ${product.brand}</p>
       <p>Category: ${product.category}</p>
       <p>Colors: ${product.color.join(", ")}</p>
-      <p>Price: $${product.price.toFixed(2)}</p>
+      <p>Price: ₹${product.price.toFixed(2)}</p>
       <button><a href="product.html?slug=${
         product.slug
       }">View Details</a></button>
