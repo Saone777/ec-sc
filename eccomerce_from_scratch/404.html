@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found - FASHION</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">FASHION</div>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <div class="error-container">
+      <div class="error-content">
+        <h1><i class="fas fa-exclamation-triangle"></i> 404</h1>
+        <h2>Page Not Found</h2>
+        <p>The page you're looking for doesn't exist or has been moved.</p>
+        <div class="error-actions">
+          <a href="index.html" class="btn">Go Home</a>
+          <a href="shop.html" class="btn">Browse Shop</a>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .error-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        padding: 20px;
+      }
+
+      .error-content {
+        text-align: center;
+        max-width: 500px;
+      }
+
+      .error-content h1 {
+        font-size: 6rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .error-content h1 i {
+        color: #ff6b6b;
+      }
+
+      .error-content h2 {
+        font-size: 2rem;
+        color: #555;
+        margin-bottom: 15px;
+      }
+
+      .error-content p {
+        font-size: 1.1rem;
+        color: #777;
+        margin-bottom: 30px;
+      }
+
+      .error-actions {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .error-actions .btn {
+        padding: 12px 25px;
+        background-color: #000;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .error-actions .btn:hover {
+        background-color: #333;
+      }
+    </style>
+  </body>
+</html>

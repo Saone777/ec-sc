@@ -1,5 +1,8 @@
 {
   "buildCommand": "",
   "outputDirectory": "eccomerce_from_scratch",
-  "framework": "html"
+  "framework": "html",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
 }
