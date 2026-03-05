@@ -241,12 +241,17 @@
         container.innerHTML = `
     <div class="product-detail-card">
         <div class="image-column">
-        <img
-          id="mainImage"
-          src=""
-          alt="Main Product Image"
-          class="main-image"
-        />
+        <div class="image-wrapper">
+          <img
+            id="mainImage"
+            src=""
+            alt="Main Product Image"
+            class="main-image"
+          />
+          <button id="zoom-btn" class="zoom-btn" title="Click to zoom">
+            <i class="fas fa-magnifying-glass"></i>
+          </button>
+        </div>
 
         <div id="thumbnailContainer" class="thumbnails"></div>
       </div>
@@ -354,5 +359,14 @@
 
       updateCartCount();
     </script>
+
+    <!-- ZOOM MODAL -->
+    <div id="zoom-modal" class="zoom-modal">
+      <button id="close-zoom" class="close-zoom">&times;</button>
+      <img id="zoomed-image" src="" alt="Zoomed Product Image" class="zoomed-image">
+    </div>
+
+    <script src="testimonials.js"></script>
+    <script src="features.js"></script>
   </body>
 </html>

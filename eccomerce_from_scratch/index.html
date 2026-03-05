@@ -71,6 +71,9 @@
       </div>
     </nav>
 
+    <!-- PROMOTIONAL BANNER -->
+    <div id="promo-banner"></div>
+
     <div class="carousel">
       <div class="slides-wrapper">
         <div class="slides">
@@ -136,6 +139,44 @@
         </section>
       </div>
     </div>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <p class="section-subtitle">Real reviews from real customers</p>
+        
+        <div class="testimonials-wrapper">
+          <button class="testimonial-nav-btn prev" id="testimonial-prev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          
+          <div id="testimonials-container" class="testimonials-container"></div>
+          
+          <button class="testimonial-nav-btn next" id="testimonial-next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section">
+      <div class="container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates on new products, upcoming sales, and exclusive offers!</p>
+        
+        <form class="newsletter-form" onsubmit="event.preventDefault(); handleNewsletterSignup(document.getElementById('newsletter-email').value);">
+          <input 
+            type="email" 
+            id="newsletter-email" 
+            placeholder="Enter your email address" 
+            required
+          />
+          <button type="submit" class="btn newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
 
     <footer class="site-footer container">
       <div class="footer-content">
@@ -217,5 +258,7 @@
         window.location.reload(); // or redirect to login
       }
     </script> -->
+    <script src="testimonials.js"></script>
+    <script src="features.js"></script>
   </body>
 </html>

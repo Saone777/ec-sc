@@ -1064,3 +1064,411 @@ nav {
     max-width: 400px;
   }
 }
+
+/* ============= PROMOTIONAL BANNER ============= */
+#promo-banner {
+  width: 100%;
+}
+
+.promo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  animation: slideDown 0.5s ease-in-out;
+}
+
+.promo-banner i {
+  font-size: 1.2rem;
+}
+
+.promo-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  transition: transform 0.2s;
+}
+
+.promo-close:hover {
+  transform: scale(1.2);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ============= TESTIMONIALS SECTION ============= */
+.testimonials-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  margin: 40px 0;
+}
+
+.testimonials-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #111;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonials-container {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.testimonial-card {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card.active {
+  position: relative;
+  opacity: 1;
+}
+
+.testimonial-card .stars {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ffc107;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-author h4 {
+  margin: 0;
+  color: #111;
+  font-size: 1rem;
+}
+
+.author-product {
+  margin: 0;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.testimonial-nav-btn {
+  background-color: #111;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.testimonial-nav-btn:hover {
+  background-color: #333;
+  transform: scale(1.1);
+}
+
+/* ============= NEWSLETTER SECTION ============= */
+.newsletter-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  margin: 40px 0;
+}
+
+.newsletter-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.newsletter-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-form input {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.newsletter-btn {
+  padding: 15px 30px !important;
+  background-color: white !important;
+  color: #667eea !important;
+  font-weight: bold;
+  border-radius: 5px !important;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.newsletter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ============= FLASH SALE TIMER ============= */
+.flash-sale-banner {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.flash-sale-banner h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.timer-value {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  border-radius: 5px;
+  min-width: 60px;
+}
+
+.timer-label {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+/* ============= PRODUCT IMAGE GALLERY & ZOOM ============= */
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+}
+
+.zoom-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 1.2rem;
+}
+
+.zoom-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.zoom-modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.zoomed-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  cursor: zoom-in;
+  transition: transform 0.2s ease-in-out;
+}
+
+.close-zoom {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-zoom:hover {
+  color: #ddd;
+}
+
+/* Responsive for testimonials and newsletter */
+@media (max-width: 768px) {
+  .testimonials-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .testimonials-wrapper {
+    flex-direction: column;
+  }
+
+  .testimonial-nav-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .newsletter-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-btn {
+    width: 100% !important;
+  }
+
+  .timer-display {
+    font-size: 1.5rem;
+  }
+
+  .timer-value {
+    padding: 8px 12px;
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    padding: 40px 15px;
+  }
+
+  .testimonials-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem;
+  }
+
+  .newsletter-section {
+    padding: 40px 15px;
+  }
+
+  .newsletter-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .newsletter-section p {
+    font-size: 0.95rem;
+  }
+
+  .promo-banner {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+
+  .promo-banner i {
+    font-size: 1rem;
+  }
+
+  .close-zoom {
+    right: 20px;
+    top: 15px;
+    font-size: 2rem;
+  }
+}
