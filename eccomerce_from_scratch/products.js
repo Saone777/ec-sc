@@ -10,11 +10,8 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: [
-      "images/watches/watches_p2-1.jpg",
-      "images/watches/watches_p2-2.jpg",
-    ],
-    category: "Watches",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Hoody",
     brand: "Omega ",
     tags: ["best-seller"],
     isPublished: true,
@@ -37,10 +34,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: [
-      "images/shirts/shirts_p1-1.jpg",
-      "images/shirts/shirts_p1-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["best-seller"],
@@ -63,8 +57,8 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/shoes/shoes_p3-1.jpg", "images/shoes/shoes_p3-2.jpg"],
-    category: "Shoes",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Leather",
     brand: "Adidas",
     tags: ["best-seller"],
     isPublished: true,
@@ -87,10 +81,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: [
-      "images/t-shirts/t-shirts_p2-1.jpg",
-      "images/t-shirts/t-shirts_p2-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Polo",
     tags: ["best-seller"],
@@ -114,8 +105,8 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/jeans/jeans_p1-1.jpg", "images/jeans/jeans_p1-2.jpg"],
-    category: "Jeans",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Tracks",
     brand: "Levi's",
     tags: ["best-seller"],
     isPublished: true,
@@ -138,10 +129,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: [
-      "images/shirts/shirts_p1-1.jpg",
-      "images/shirts/shirts_p1-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Tom Ford",
     tags: ["best-seller"],
@@ -165,10 +153,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: [
-      "images/shirts/shirts_p2-1.jpg",
-      "images/shirts/shirts_p2-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Tom Ford",
     tags: ["best-seller"],
@@ -193,7 +178,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/shoes/shoes_p1-1.jpg", "images/shoes/shoes_p1-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["new-arrival"],
@@ -215,11 +200,8 @@ const products = [
     description: "Fossil Nate JR1401 Chronograph Watch - For Men",
     price: 12500,
     listPrice: 0,
-    images: [
-      "images/watches/watches_p1-1.jpg",
-      "images/watches/watches_p1-2.jpg",
-    ],
-    category: "Jeans",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Hoody",
     brand: "Levi’s",
     tags: ["new-arrival"],
     isPublished: true,
@@ -240,7 +222,7 @@ const products = [
     description: "This is the description of product.",
     price: 11000,
     listPrice: 0,
-    images: ["images/shoes/shoes_p3-1.jpg", "images/shoes/shoes_p3-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Jeans",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -261,7 +243,7 @@ const products = [
     description: "This is the description of product 1.",
     price: 12500,
     listPrice: 0,
-    images: ["images/shoes/shoes_p2-1.jpg", "images/shoes/shoes_p2-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Jeans",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -284,8 +266,8 @@ const products = [
       "Symbol Premium's easy stretch jeans feature 'Air-Lite' hollow fiber, providing a unique blend of style, comfort. A desirable choice for denim lovers seeking both fashion and functionality in their wardrobe",
     price: 12500,
     listPrice: 0,
-    images: ["images/jeans/jeans_p1-1.jpg", "images/jeans/jeans_p1-2.jpg"],
-    category: "Jeans",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Tracks",
     brand: "Levi’s",
     tags: ["new-arrival"],
     isPublished: true,
@@ -307,7 +289,7 @@ const products = [
       "This Ben Martin casual denim jeans pant for men Durable and timeless look.AVAILABLE SIZE & COLOUR: This Ben Martin Mens Cotton Denim Jeans comes Range of sizes & Colors to suit different types. 40 Dark Blue, Light Blue, Brown, Green, Grey, Black & White. This Ben Martin Denim Jeans pant for Men is light weight breathable soft denim fabric. 1) Comfortable for all-day wear. 2) Casual and laid-back style. 3) 5 Basic Coin pockets for added functionality. 4) vailable in different washes and finishes.",
     price: 12500,
     listPrice: 0,
-    images: ["images/jeans/jeans_p2-1.jpg", "images/jeans/jeans_p2-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Jeans",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -332,7 +314,7 @@ const products = [
     price: 5000,
     listPrice: 0,
 
-    images: ["images/jeans/jeans_p3-1.jpg", "images/jeans/jeans_p3-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Jeans",
     brand: "Gucci",
     tags: ["today-deal"],
@@ -379,7 +361,7 @@ const products = [
     price: 229.99,
     listPrice: 0,
 
-    images: ["images/jeans/jeans_p2-1.jpg", "images/jeans/jeans_p2-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Jeans",
     brand: "Gucci",
     tags: ["today-deal"],
@@ -402,10 +384,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: [
-      "images/t-shirts/t-shirts_p1-1.jpg",
-      "images/t-shirts/t-shirts_p1-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Polo",
     tags: ["today-deal"],
@@ -428,11 +407,7 @@ const products = [
       "Elevate your street cred by pairing these Baggy Oversized Jeans with a graphic t-shirt and high-top sneakers. Roll up the cuffs for an added edge and throw on a bomber jacket to complete the look",
     price: 27500,
     listPrice: 0,
-
-    images: [
-      "images/t-shirts/t-shirts_p2-1.jpg",
-      "images/t-shirts/t-shirts_p3-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Polo",
     tags: ["today-deal"],
@@ -455,10 +430,7 @@ const products = [
     price: 99.99,
     listPrice: 0,
 
-    images: [
-      "images/t-shirts/t-shirts_p3-1.jpg",
-      "images/t-shirts/t-shirts_p3-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Burberry",
     tags: ["today-deal"],
@@ -484,10 +456,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: [
-      "images/shirts/shirts_p1-1.jpg",
-      "images/shirts/shirts_p1-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["featured"],
@@ -511,11 +480,8 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: [
-      "images/watches/watches_p2-1.jpg",
-      "images/watches/watches_p2-2.jpg",
-    ],
-    category: "Watches",
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    category: "Hoody",
     brand: "Breitling ",
     tags: ["featured"],
     isPublished: true,
@@ -538,7 +504,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: ["images/shoes/shoes_p4-1.jpg", "images/shoes/shoes_p4-2.jpg"],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shoes",
     brand: "Nike",
     tags: ["featured"],
@@ -562,10 +528,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: [
-      "images/shirts/shirts_p2-1.jpg",
-      "images/shirts/shirts_p2-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "Shirts",
     brand: "Burberry",
     tags: ["featured"],
@@ -589,10 +552,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: [
-      "images/t-shirts/t-shirts_p4-1.jpg",
-      "images/t-shirts/t-shirts_p4-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Burberry",
     tags: ["featured"],
@@ -615,10 +575,7 @@ const products = [
     price: 99.99,
     listPrice: 0,
 
-    images: [
-      "images/t-shirts/t-shirts_p3-1.jpg",
-      "images/t-shirts/t-shirts_p3-2.jpg",
-    ],
+    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
     category: "T-Shirts",
     brand: "Burberry",
     tags: ["featured"],

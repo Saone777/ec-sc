@@ -26,15 +26,19 @@ function resetTimer() {
   slideInterval = setInterval(nextSlide, 5000);
 }
 
-next.addEventListener("click", () => {
-  nextSlide();
-  resetTimer();
-});
+if (next) {
+  next.addEventListener("click", () => {
+    nextSlide();
+    resetTimer();
+  });
+}
 
-prev.addEventListener("click", () => {
-  prevSlide();
-  resetTimer();
-});
+if (prev) {
+  prev.addEventListener("click", () => {
+    prevSlide();
+    resetTimer();
+  });
+}
 
 updateSlidePosition();
 

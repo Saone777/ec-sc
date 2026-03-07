@@ -14,7 +14,7 @@ const testimonials = [
     text: "Great shopping experience. The jeans are very comfortable and the price is reasonable compared to other sites.",
     rating: 5,
     image: "https://i.pravatar.cc/100?img=2",
-    product: "Jeans",
+    product: "Tracks",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const testimonials = [
     text: "Love the shoe collection! Customer service was super helpful when I had questions. Will definitely buy again.",
     rating: 5,
     image: "https://i.pravatar.cc/100?img=3",
-    product: "Shoes",
+    product: "Leather",
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const testimonials = [
     text: "Received my watch in perfect condition. Quality is better than expected. 5 stars!",
     rating: 5,
     image: "https://i.pravatar.cc/100?img=4",
-    product: "Watches",
+    product: "Hoody",
   },
   {
     id: 5,
