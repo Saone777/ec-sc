@@ -208,7 +208,7 @@
           }
           alert("Login successful!");
           const params = new URLSearchParams(window.location.search);
-          const redirectPath = params.get("redirect") || "/";
+          const redirectPath = params.get("redirect") || "index.html";
 
           // Redirect to originally intended page or home
           window.location.href = redirectPath;

@@ -34,7 +34,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/leather/1000401163.jpg", "images/leather/1000401163.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["best-seller"],
@@ -57,7 +57,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/tracks/1000401149.jpg", "images/tracks/1000401149.jpg"],
     category: "Leather",
     brand: "Adidas",
     tags: ["best-seller"],
@@ -81,7 +81,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/ts2/1000397539.jpg", "images/ts2/1000397539.jpg"],
     category: "T-Shirts",
     brand: "Polo",
     tags: ["best-seller"],
@@ -105,7 +105,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/hoody/1000401143.jpg", "images/hoody/1000401143.jpg"],
     category: "Tracks",
     brand: "Levi's",
     tags: ["best-seller"],
@@ -129,7 +129,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/tshirts/1000401136.jpg", "images/ts2/1000401136.jpg"],
     category: "Shirts",
     brand: "Tom Ford",
     tags: ["best-seller"],
@@ -153,7 +153,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/leather/1000401164.jpg", "images/leather/1000401164.jpg"],
     category: "Shirts",
     brand: "Tom Ford",
     tags: ["best-seller"],
@@ -178,7 +178,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/tracks/1000401153.jpg", "images/tracks/1000401153.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["new-arrival"],
@@ -200,7 +200,7 @@ const products = [
     description: "Fossil Nate JR1401 Chronograph Watch - For Men",
     price: 12500,
     listPrice: 0,
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/hoody/1000401151.jpg", "images/hoody/1000401151.jpg"],
     category: "Hoody",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -222,7 +222,7 @@ const products = [
     description: "This is the description of product.",
     price: 11000,
     listPrice: 0,
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/ts2/1000397546.jpg", "images/ts2/1000397546.jpg"],
     category: "Jeans",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -289,7 +289,7 @@ const products = [
       "This Ben Martin casual denim jeans pant for men Durable and timeless look.AVAILABLE SIZE & COLOUR: This Ben Martin Mens Cotton Denim Jeans comes Range of sizes & Colors to suit different types. 40 Dark Blue, Light Blue, Brown, Green, Grey, Black & White. This Ben Martin Denim Jeans pant for Men is light weight breathable soft denim fabric. 1) Comfortable for all-day wear. 2) Casual and laid-back style. 3) 5 Basic Coin pockets for added functionality. 4) vailable in different washes and finishes.",
     price: 12500,
     listPrice: 0,
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/tracks/1000401154.jpg", "images/tracks/1000401154.jpg"],
     category: "Jeans",
     brand: "Levi’s",
     tags: ["new-arrival"],
@@ -314,7 +314,7 @@ const products = [
     price: 5000,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/leather/1000401165.jpg", "images/leather/1000401165.jpg"],
     category: "Jeans",
     brand: "Gucci",
     tags: ["today-deal"],
@@ -337,7 +337,7 @@ const products = [
     price: 2500,
     listPrice: 0,
 
-    images: ["images/shoes/shoes_p2-1.jpg", "images/shoes/shoes_p2-2.jpg"],
+    images: ["images/tracks/1000401149.jpg", "images/tracks/1000401149.jpg"],
     category: "Shoes",
     brand: "Puma",
     tags: ["today-deal"],
@@ -456,7 +456,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/ts2/1000397549.jpg", "images/ts2/1000397549.jpg"],
     category: "Shirts",
     brand: "Levi's",
     tags: ["featured"],
@@ -490,6 +490,7 @@ const products = [
 
     numSales: 9,
     countInStock: 60,
+    images: ["images/leather/1000401166.jpg", "images/leather/1000401166.jpg"],
     colors: ["blue", "dark-blue"],
     sizes: ["S", "M", "L", "XL"],
     reviews: [],
@@ -504,7 +505,7 @@ const products = [
     price: 27500,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/tracks/1000401155.jpg", "images/tracks/1000401155.jpg"],
     category: "Shoes",
     brand: "Nike",
     tags: ["featured"],
@@ -575,7 +576,7 @@ const products = [
     price: 99.99,
     listPrice: 0,
 
-    images: ["images/hoody/1000401142.jpg", "images/hoody/1000401142.jpg"],
+    images: ["images/ts2/1000397549.jpg", "images/ts2/1000397549.jpg"],
     category: "T-Shirts",
     brand: "Burberry",
     tags: ["featured"],
