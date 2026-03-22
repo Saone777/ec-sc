@@ -20,6 +20,9 @@ function addToCart(product) {
   localStorage.setItem("cart", JSON.stringify(cart));
   updateCartCount();
   alert(`${product.name} added to cart!`);
+
+  // Sync to Firebase
+  saveCartToDB().catch(console.error);
 }
 
 // Initialize cart count on page load

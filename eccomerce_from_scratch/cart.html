@@ -221,8 +221,9 @@
       </div>
     </footer>
 
-    <script src="navbar.js"></script>
+<script src="navbar.js"></script>
     <script src="userdata.js"></script>
+    <script src="firebase-utils.js"></script>
     <script>
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const cartContainer = document.getElementById("cartContainer");
@@ -289,6 +290,12 @@
       }
 
       updateCartCount();
+      
+      // Load cart from Firebase on load
+      window.addEventListener('load', async () => {
+        await loadCartFromDB();
+        location.reload(); // Reload to show synced cart
+      });
     </script>
   </body>
 </html>

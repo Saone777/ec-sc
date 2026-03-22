@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - All Carts</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .admin-container { max-width: 1200px; margin: 40px auto; padding: 20px; }
+    .user-cart { border: 1px solid #ddd; margin: 20px 0; padding: 20px; border-radius: 8px; }
+    .user-id { font-weight: bold; color: #333; margin-bottom: 10px; }
+    .cart-item { display: flex; gap: 10px; margin: 10px 0; padding: 10px; background: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <nav><!-- same as cart.html nav --></nav>
+  <div class="container">
+    <div class="admin-container">
+      <h1>All User Carts</h1>
+      <div id="allCarts"></div>
+    </div>
+  </div>
+  <script src="navbar.js"></script>
+  <script src="firebase-utils.js"></script>
+  <script>
+    async function loadAllCarts() {
+      const snapshot = await window.db.ref('carts').once('value');
+      const carts = snapshot.val() || {};
+      const container = document.getElementById('allCarts');
+      container.innerHTML = '';
+      
+      Object.entries(carts).forEach(([userId, data]) => {
+        const userDiv = document.createElement('div');
+        userDiv.className = 'user-cart';
+        userDiv.innerHTML = `<div class="user-id">User: ${userId}</div>`;
+        const items = data.items || {};
+        Object.values(items).forEach(item => {
+          const itemDiv = document.createElement('div');
+          itemDiv.className = 'cart-item';
+          itemDiv.innerHTML = `
+            <img src="${item.images ? item.images[0] : ''}" width="50">
+            <div>
+              <strong>${item.name}</strong> - Qty: ${item.quantity || 1} - $${item.price}
+            </div>
+          `;
+          userDiv.appendChild(itemDiv);
+        });
+        container.appendChild(userDiv);
+      });
+    }
+    
+    window.addEventListener('load', loadAllCarts);
+  </script>
+</body>
+</html>
